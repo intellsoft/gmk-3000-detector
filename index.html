@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ================= SEO Meta Tags ================= -->
+<title>راهنمای تعاملی چشمی دزدگیر GMK-IGC 3000 | سنسور PIR و تنظیمات | اینتل‌سافت</title>
+<meta name="description" content="راهنمای تعاملی و تصویری چشمی دزدگیر اماکن GMK-IGC 3000. با کلیک روی هر بخش برد، توضیحات کامل سنسور PIR، تنظیم حساسیت، جامپرها و ترمینال‌ها را ببینید. ساخته‌شده توسط اینتل‌سافت (intellsoft.ir).">
+<meta name="keywords" content="چشمی دزدگیر GMK 3000, سنسور PIR, GMK-IGC 3000, دزدگیر اماکن, تنظیم حساسیت چشمی, راهنمای دزدگیر, اینتل سافت, intellsoft">
+<meta name="author" content="اینتل‌سافت">
+<link rel="canonical" href="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="راهنمای تعاملی چشمی دزدگیر GMK-IGC 3000 | اینتل‌سافت">
+<meta property="og:description" content="راهنمای تعاملی و تصویری چشمی دزدگیر GMK-IGC 3000. توضیحات کامل سنسور PIR، تنظیمات و ترمینال‌ها. ساخته‌شده توسط اینتل‌سافت.">
+<meta property="og:url" content="https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/">
+<meta property="og:site_name" content="اینتل‌سافت">
+<meta property="og:locale" content="fa_IR">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="راهنمای تعاملی چشمی دزدگیر GMK-IGC 3000">
+<meta name="twitter:description" content="راهنمای تعاملی و تصویری چشمی دزدگیر GMK-IGC 3000. ساخته‌شده توسط اینتل‌سافت (intellsoft.ir).">
+
+<!-- ================= Structured Data (JSON-LD) ================= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "#product",
+      "name": "چشمی دزدگیر اماکن GMK-IGC 3000",
+      "description": "سنسور تشخیص حرکت PIR مدل GMK-IGC 3000 با برد ۱۴ متر، زاویه پوشش ۱۴۰ درجه، تنظیم حساسیت و خروجی آلارم NC. مناسب برای سیستم‌های دزدگیر اماکن.",
+      "category": "تجهیزات امنیتی > سنسور حرکتی PIR",
+      "brand": {
+        "@type": "Brand",
+        "name": "GMK"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "GMK"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceCurrency": "IRR",
+        "url": "https://intellsoft.ir"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://intellsoft.ir/#organization",
+      "name": "اینتل‌سافت",
+      "alternateName": "Intellsoft",
+      "url": "https://intellsoft.ir",
+      "description": "اینتل‌سافت سازندهٔ ابزارهای تعاملی، راهنماهای تصویری و نرم‌افزارهای تخصصی برای تجهیزات امنیتی و دوربین مداربسته است.",
+      "sameAs": [
+        "https://intellsoft.ir"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "#webpage",
+      "name": "راهنمای تعاملی چشمی دزدگیر GMK-IGC 3000",
+      "description": "راهنمای تعاملی و تصویری چشمی دزدگیر GMK-IGC 3000 شامل توضیحات سنسور PIR، تنظیمات و ترمینال‌ها.",
+      "inLanguage": "fa",
+      "isPartOf": {
+        "@id": "https://intellsoft.ir/#organization"
+      },
+      "author": {
+        "@id": "https://intellsoft.ir/#organization"
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+/* ===== استایل اصلی (بدون تغییر در منطق قبلی) ===== */
+.gmk-wrap{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, Arial, sans-serif;
+  background:#eef2f7;
+  border-radius:16px;
+  padding:22px;
+  color:#1e293b;
+  direction:rtl;
+  text-align:right;
+  box-sizing:border-box;
+  line-height:1.7;
+  margin-top:30px;
+}
+.gmk-wrap *,.gmk-wrap *::before,.gmk-wrap *::after{box-sizing:border-box}
+.gmk-header h1{margin:0 0 6px;font-size:20px;color:#0f172a;font-weight:800}
+.gmk-header p{margin:0 0 18px;font-size:13.5px;color:#64748b}
+.gmk-main{display:grid;grid-template-columns:1fr 380px;gap:18px;align-items:start}
+@media(max-width:900px){.gmk-main{grid-template-columns:1fr}}
+.gmk-board-box{
+  background:#fff;border:1px solid #e2e8f0;border-radius:14px;
+  padding:10px;box-shadow:0 4px 16px rgba(15,23,42,.06);
+}
+.gmk-board-box svg{display:block;width:100%;height:auto;user-select:none}
+.gmk-panel{
+  background:#fff;border:1px solid #e2e8f0;border-radius:14px;
+  padding:16px;box-shadow:0 4px 16px rgba(15,23,42,.06);min-height:260px;
+}
+.gmk-hotspot{cursor:pointer;outline:none}
+.gmk-hotspot .gmk-hl{fill:transparent;transition:fill .18s,stroke .18s;stroke:transparent;stroke-width:2;stroke-dasharray:5 4}
+.gmk-hotspot:hover .gmk-hl{fill:rgba(220,38,38,.18);stroke:#ef4444}
+.gmk-hotspot.gmk-active .gmk-hl{fill:rgba(220,38,38,.28);stroke:#ef4444}
+.gmk-hotspot:focus-visible .gmk-hl{stroke:#ef4444;fill:rgba(220,38,38,.20)}
+.gmk-tip{
+  position:fixed;z-index:99999;pointer-events:none;
+  background:#0f172a;color:#f8fafc;
+  padding:9px 13px;border-radius:9px;
+  font-size:13px;max-width:290px;line-height:1.6;
+  opacity:0;transform:translateY(4px);
+  transition:opacity .15s,transform .15s;
+  box-shadow:0 10px 28px rgba(0,0,0,.3);
+  font-family:inherit;
+}
+.gmk-tip.gmk-show{opacity:1;transform:translateY(0)}
+.gmk-tip b{display:block;font-size:12.5px;margin-bottom:3px;color:#fca5a5;font-weight:700}
+.gmk-empty{text-align:center;padding:36px 10px;color:#64748b}
+.gmk-empty-icon{font-size:34px;margin-bottom:10px}
+.gmk-empty-t{font-size:14px;font-weight:700;color:#334155;margin-bottom:5px}
+.gmk-empty-d{font-size:12.5px;color:#94a3b8}
+.gmk-p-head{border-bottom:1px solid #eef2f7;padding-bottom:10px;margin-bottom:12px}
+.gmk-p-tag{display:inline-block;font-size:11px;font-weight:700;color:#dc2626;background:#fef2f2;padding:2px 9px;border-radius:999px;margin-bottom:7px}
+.gmk-p-title{font-size:16px;font-weight:800;color:#0f172a}
+.gmk-p-body{font-size:13px;color:#475569;line-height:1.85}
+.gmk-p-body p{margin:0 0 9px}
+.gmk-p-body ul{margin:0 0 9px;padding-right:18px}
+.gmk-p-body li{margin-bottom:5px}
+.gmk-p-body b{color:#0f172a}
+.gmk-note{
+  background:#fffbeb;border-right:3px solid #f59e0b;
+  padding:8px 10px;border-radius:6px;font-size:12.5px;color:#92400e;margin-top:8px !important;
+}
+.gmk-spec{
+  background:#f0f9ff;border-right:3px solid #0ea5e9;
+  padding:8px 10px;border-radius:6px;font-size:12.5px;color:#075985;margin-top:8px !important;
+}
+.gmk-p-opts-title{font-size:12px;font-weight:700;color:#64748b;margin:14px 0 8px}
+.gmk-p-opts{display:flex;flex-direction:column;gap:6px}
+.gmk-opt{
+  display:flex;align-items:center;gap:10px;width:100%;
+  background:#f8fafc;border:1.5px solid #e2e8f0;border-radius:9px;
+  padding:8px 11px;cursor:pointer;transition:all .15s;
+  font-family:inherit;text-align:right;color:#334155;
+}
+.gmk-opt:hover{border-color:#fca5a5;background:#fef2f2}
+.gmk-opt.gmk-on{border-color:#dc2626;background:#fef2f2;box-shadow:0 0 0 2px rgba(220,38,38,.12)}
+.gmk-opt-l{
+  font-family:monospace;font-size:12px;font-weight:700;
+  background:#0f172a;color:#f8fafc;padding:3px 8px;border-radius:6px;
+  min-width:56px;text-align:center;flex-shrink:0;
+}
+.gmk-opt.gmk-on .gmk-opt-l{background:#dc2626}
+.gmk-opt-n{font-size:12.5px;font-weight:600}
+.gmk-p-cur{
+  margin-top:12px;background:#f0fdf4;border-right:3px solid #22c55e;
+  padding:9px 11px;border-radius:6px;font-size:12.5px;color:#166534;line-height:1.7;
+}
+.gmk-p-cur b{color:#14532d}
+
+/* ===== بخش برندینگ اینتل‌سافت ===== */
+.gmk-brand-footer{
+  margin-top:28px;
+  padding:22px 20px;
+  background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%);
+  border-radius:14px;
+  color:#e2e8f0;
+  text-align:center;
+  box-shadow:0 6px 20px rgba(15,23,42,.15);
+}
+.gmk-brand-footer .gmk-brand-icon{
+  font-size:28px;
+  margin-bottom:8px;
+  display:block;
+}
+.gmk-brand-footer h3{
+  margin:0 0 8px;
+  font-size:16px;
+  font-weight:800;
+  color:#f8fafc;
+}
+.gmk-brand-footer p{
+  margin:0 0 14px;
+  font-size:13px;
+  color:#94a3b8;
+  line-height:1.8;
+  max-width:560px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.gmk-brand-link{
+  display:inline-block;
+  background:#dc2626;
+  color:#fff !important;
+  text-decoration:none;
+  font-weight:700;
+  font-size:13.5px;
+  padding:10px 24px;
+  border-radius:9px;
+  transition:background .2s, transform .15s;
+  border:2px solid #dc2626;
+}
+.gmk-brand-link:hover{
+  background:#b91c1c;
+  border-color:#b91c1c;
+  transform:translateY(-1px);
+}
+.gmk-brand-url{
+  display:block;
+  margin-top:10px;
+  font-size:12px;
+  color:#64748b;
+  font-family:monospace;
+  letter-spacing:.5px;
+}
+</style>
+</head>
+<body>
+
+<!-- ===== بخش اصلی ابزار تعاملی ===== -->
+<div class="gmk-wrap" dir="rtl">
+
+  <div class="gmk-header">
+    <h1>راهنمای تعاملی برد سنسور GMK-IGC 3000</h1>
+    <p>موس را روی هر بخش از برد ببرید تا توضیح کوتاه آن را ببینید، و با کلیک یا لمس، توضیحات کامل و تنظیمات آن بخش را در پنل کنار مشاهده کنید.</p>
+  </div>
+
+  <div class="gmk-main">
+    <div class="gmk-board-box">
+      <svg id="gmk-svg" viewBox="0 0 750 830" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="برد سنسور GMK-IGC 3000 — چشمی دزدگیر اماکن">
+        <defs>
+          <filter id="gmk-shadow" x="-5%" y="-5%" width="110%" height="110%">
+            <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.12"/>
+          </filter>
+          <radialGradient id="gmk-pirG" cx="50%" cy="50%" r="60%">
+            <stop offset="0%" stop-color="#3a3a3a" stop-opacity="1"/>
+            <stop offset="70%" stop-color="#1a1a1a" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#0a0a0a" stop-opacity="1"/>
+          </radialGradient>
+        </defs>
+
+        <!-- ===== WHITE HOUSING ===== -->
+        <path d="M 140 30 L 610 30 Q 680 30 680 100 L 680 740 Q 680 800 610 800 L 140 800 Q 70 800 70 740 L 70 100 Q 70 30 140 30 Z"
+              fill="#f0f2f5" stroke="#cfd4da" stroke-width="2"/>
+
+        <!-- Install Hint Hotspot (Invisible) -->
+        <rect class="gmk-hotspot" data-part="install" x="70" y="30" width="610" height="50" fill="transparent" style="cursor:pointer;" />
+
+        <!-- ===== GREEN PCB ===== -->
+        <rect x="105" y="80" width="540" height="630" rx="8" fill="#2d6b3a" stroke="#1e4d28" stroke-width="2" filter="url(#gmk-shadow)"/>
+
+        <!-- PCB Silk labels -->
+        <g font-size="9" fill="#c8e6cf" font-family="monospace" font-weight="bold">
+          <text x="350" y="310">www.GMK.IR</text>
+          <text x="230" y="180">O-1030</text>
+          <text x="230" y="200">T-1019</text>
+          <text x="230" y="230">QC</text>
+          <text x="420" y="480">C: 105M</text>
+          <text x="420" y="500">V: 0407A</text>
+        </g>
+
+        <!-- PCB mounting holes -->
+        <g fill="#0a0a0a" stroke="#3f8b52" stroke-width="1.5">
+          <circle cx="140" cy="110" r="6"/>
+          <circle cx="610" cy="110" r="6"/>
+          <circle cx="140" cy="680" r="6"/>
+          <circle cx="610" cy="680" r="6"/>
+        </g>
+
+        <!-- ===== CAPACITORS (LEFT SIDE) ===== -->
+        <g>
+          <ellipse cx="150" cy="150" rx="12" ry="5" fill="#8a9aa0"/>
+          <rect x="138" y="150" width="24" height="35" fill="#1a5a2a" stroke="#0a3a1a" stroke-width="1"/>
+          <ellipse cx="150" cy="185" rx="12" ry="5" fill="#1a5a2a"/>
+          <text x="160" y="170" font-size="6" fill="#c8e6cf" font-family="monospace">10UF/10V</text>
+
+          <ellipse cx="150" cy="220" rx="12" ry="5" fill="#8a9aa0"/>
+          <rect x="138" y="220" width="24" height="35" fill="#1a5a2a" stroke="#0a3a1a" stroke-width="1"/>
+          <ellipse cx="150" cy="255" rx="12" ry="5" fill="#1a5a2a"/>
+
+          <ellipse cx="150" cy="290" rx="12" ry="5" fill="#8a9aa0"/>
+          <rect x="138" y="290" width="24" height="35" fill="#1a5a2a" stroke="#0a3a1a" stroke-width="1"/>
+          <ellipse cx="150" cy="325" rx="12" ry="5" fill="#1a5a2a"/>
+        </g>
+
+        <!-- ===== CAPACITORS (RIGHT SIDE) ===== -->
+        <g>
+          <ellipse cx="600" cy="220" rx="12" ry="5" fill="#8a9aa0"/>
+          <rect x="588" y="220" width="24" height="35" fill="#1a5a2a" stroke="#0a3a1a" stroke-width="1"/>
+          <ellipse cx="600" cy="255" rx="12" ry="5" fill="#1a5a2a"/>
+
+          <ellipse cx="600" cy="280" rx="12" ry="5" fill="#8a9aa0"/>
+          <rect x="588" y="280" width="24" height="35" fill="#1a5a2a" stroke="#0a3a1a" stroke-width="1"/>
+          <ellipse cx="600" cy="315" rx="12" ry="5" fill="#1a5a2a"/>
+
+          <ellipse cx="600" cy="340" rx="12" ry="5" fill="#8a9aa0"/>
+          <rect x="588" y="340" width="24" height="35" fill="#1a5a2a" stroke="#0a3a1a" stroke-width="1"/>
+          <ellipse cx="600" cy="375" rx="12" ry="5" fill="#1a5a2a"/>
+        </g>
+
+        <!-- ===== LED JUMPER (3 PINS) ===== -->
+        <g class="gmk-hotspot" data-part="ledJmp" tabindex="0" role="button" aria-label="جامپر روشن/خاموش LED">
+          <text x="285" y="140" font-size="10" fill="#c8e6cf" text-anchor="middle" font-family="monospace" font-weight="bold">LED ON/OFF</text>
+          <rect x="245" y="150" width="80" height="30" rx="3" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/>
+          <g fill="#fbbf24" stroke="#a16207" stroke-width="0.8">
+            <circle cx="260" cy="165" r="6"/>
+            <circle cx="285" cy="165" r="6"/>
+            <circle cx="310" cy="165" r="6"/>
+          </g>
+          <g font-size="8" fill="#fff" text-anchor="middle" font-family="monospace" font-weight="bold">
+            <text x="272" y="182">OFF</text>
+            <text x="297" y="182">ON</text>
+          </g>
+          <rect class="gmk-cap-ledJmp" x="279" y="159" width="32" height="12" rx="2" fill="#facc15" stroke="#a16207" stroke-width="1"/>
+          <rect class="gmk-hl" x="245" y="150" width="80" height="30" rx="3"/>
+        </g>
+
+        <!-- ===== LED INDICATOR (LARGER) ===== -->
+        <g class="gmk-hotspot" data-part="led" tabindex="0" role="button" aria-label="LED نشانگر">
+          <circle cx="380" cy="165" r="18" fill="#3a3a3a" stroke="#111" stroke-width="1.5"/>
+          <circle cx="380" cy="165" r="12" fill="#f5a623"/>
+          <circle cx="380" cy="165" r="6" fill="#fbbf24"/>
+          <circle class="gmk-hl" cx="380" cy="165" r="22"/>
+        </g>
+
+        <!-- ===== PULSE / AUTO JUMPERS ===== -->
+        <g class="gmk-hotspot" data-part="pulseJmp" tabindex="0" role="button" aria-label="جامپر پالس / خودکار">
+          <rect x="530" y="150" width="40" height="30" rx="3" fill="#1a1a1a" stroke="#000" stroke-width="1.5"/>
+          <text x="550" y="145" font-size="8" fill="#c8e6cf" text-anchor="middle" font-family="monospace" font-weight="bold">PULSE</text>
+          <text x="550" y="195" font-size="8" fill="#c8e6cf" text-anchor="middle" font-family="monospace" font-weight="bold">AUTO</text>
+          <rect x="530" y="180" width="40" height="30" rx="3" fill="#1a1a1a" stroke="#000" stroke-width="1.5"/>
+          <rect class="gmk-hl" x="525" y="145" width="50" height="70" rx="3"/>
+        </g>
+
+        <!-- ===== TRIMMER POTENTIOMETER (ACCURATE) ===== -->
+        <g class="gmk-hotspot" data-part="trimmer" tabindex="0" role="button" aria-label="تنظیم حساسیت">
+          <rect x="140" y="380" width="55" height="55" rx="3" fill="#2563eb" stroke="#1e3a8a" stroke-width="1.5"/>
+          <circle cx="167" cy="407" r="22" fill="#e0e0e0" stroke="#999" stroke-width="1"/>
+          <line x1="155" y1="407" x2="179" y2="407" stroke="#333" stroke-width="2"/>
+          <line x1="167" y1="395" x2="167" y2="419" stroke="#333" stroke-width="2"/>
+          <text x="167" y="430" font-size="8" fill="#333" text-anchor="middle" font-family="monospace" font-weight="bold">501</text>
+          <text x="167" y="450" font-size="9" fill="#c8e6cf" text-anchor="middle" font-family="monospace" font-weight="bold">SENS</text>
+          <rect class="gmk-hl" x="140" y="380" width="55" height="55" rx="3"/>
+        </g>
+
+        <!-- ===== PIR SENSOR ===== -->
+        <g class="gmk-hotspot" data-part="pir" tabindex="0" role="button" aria-label="سنسور PIR">
+          <circle cx="380" cy="380" r="80" fill="#0a0a0a" stroke="#000" stroke-width="2"/>
+          <circle cx="380" cy="380" r="70" fill="url(#gmk-pirG)"/>
+          <circle cx="380" cy="380" r="45" fill="#2a2a2a" stroke="#4a4a4a" stroke-width="1"/>
+          <rect x="360" y="365" width="40" height="30" rx="3" fill="#0a0a0a" stroke="#2a2a2a" stroke-width="1"/>
+          <text x="380" y="382" font-size="6" fill="#888" text-anchor="middle" font-family="monospace" font-weight="bold">NICERA</text>
+          <circle class="gmk-hl" cx="380" cy="380" r="80"/>
+        </g>
+
+        <!-- ===== TAMPER SWITCH (ACCURATE) ===== -->
+        <g class="gmk-hotspot" data-part="tamperSw" tabindex="0" role="button" aria-label="کلید تامپر (تشخیص باز شدن درب)">
+          <rect x="135" y="510" width="30" height="20" fill="#b0b0b0" stroke="#666" stroke-width="1.5"/>
+          <rect x="145" y="480" width="10" height="30" fill="#d0d0d0" stroke="#888" stroke-width="1"/>
+          <line x1="150" y1="470" x2="150" y2="480" stroke="#666" stroke-width="3"/>
+          <text x="150" y="545" font-size="9" fill="#c8e6cf" text-anchor="middle" font-family="monospace" font-weight="bold">TAMPER</text>
+          <rect class="gmk-hl" x="135" y="470" width="30" height="60" rx="3"/>
+        </g>
+
+        <!-- ===== TERMINAL BLOCK (EVENLY SPACED) ===== -->
+        <g class="gmk-hotspot" data-part="terminal" tabindex="0" role="button" aria-label="ترمینال‌های اتصال">
+          <rect x="130" y="620" width="510" height="55" rx="4" fill="#1a5a2a" stroke="#0a3a1a" stroke-width="2"/>
+          <rect x="205" y="620" width="4" height="55" fill="#0a3a1a"/>
+          <rect x="385" y="620" width="4" height="55" fill="#0a3a1a"/>
+          <g fill="#d0d0d0" stroke="#666" stroke-width="1.5">
+            <circle cx="160" cy="647" r="15"/>
+            <circle cx="250" cy="647" r="15"/>
+            <circle cx="340" cy="647" r="15"/>
+            <circle cx="430" cy="647" r="15"/>
+            <circle cx="520" cy="647" r="15"/>
+            <circle cx="610" cy="647" r="15"/>
+          </g>
+          <g stroke="#555" stroke-width="1.8">
+            <line x1="149" y1="647" x2="171" y2="647"/>
+            <line x1="239" y1="647" x2="261" y2="647"/>
+            <line x1="329" y1="647" x2="351" y2="647"/>
+            <line x1="419" y1="647" x2="441" y2="647"/>
+            <line x1="509" y1="647" x2="531" y2="647"/>
+            <line x1="599" y1="647" x2="621" y2="647"/>
+          </g>
+          <g font-size="9" fill="#fbbf24" text-anchor="middle" font-family="monospace" font-weight="bold">
+            <text x="205" y="685">TAMPER</text>
+            <text x="295" y="685">+12V</text>
+            <text x="385" y="685">0V</text>
+            <text x="520" y="685">ALARM</text>
+          </g>
+          <rect class="gmk-hl" x="130" y="620" width="510" height="55" rx="4"/>
+        </g>
+
+      </svg>
+    </div>
+
+    <aside class="gmk-panel" id="gmk-panel"></aside>
+  </div>
+
+  <!-- ===== بخش معرفی و تبلیغ اینتل‌سافت ===== -->
+  <div class="gmk-brand-footer">
+    <span class="gmk-brand-icon" aria-hidden="true">🛠️</span>
+    <h3>ساخته‌شده توسط اینتل‌سافت</h3>
+    <p>
+      این راهنمای تعاملی نمونه‌ای از ابزارهای آنلاین و راهنماهای تصویری است که توسط
+      <strong>اینتل‌سافت</strong> برای تجهیزات امنیتی، دوربین مداربسته و سیستم‌های دزدگیر طراحی و توسعه داده می‌شود.
+      اگر به ساخت ابزار مشابه، راهنمای تعاملی یا نرم‌افزار تخصصی نیاز دارید، با ما در ارتباط باشید.
+    </p>
+    <a class="gmk-brand-link" href="https://intellsoft.ir" target="_blank" rel="noopener">
+      مشاهده وب‌سایت اینتل‌سافت →
+    </a>
+    <span class="gmk-brand-url">intellsoft.ir</span>
+  </div>
+
+  <div class="gmk-tip" id="gmk-tip" aria-hidden="true"></div>
+</div>
+
+<!-- ===== JavaScript (بدون تغییر در منطق تعاملی) ===== -->
+<script>
+(function(){
+  'use strict';
+  var root = document.querySelector('.gmk-wrap');
+  if(!root) return;
+
+  var svg = root.querySelector('#gmk-svg');
+  var panel = root.querySelector('#gmk-panel');
+  var tip = root.querySelector('#gmk-tip');
+  var currentKey = null;
+
+  var state = {
+    ledJmp: 1,
+    pulseJmp: 0
+  };
+
+  var PARTS = {
+    terminal: {
+      tag: 'اتصال',
+      title: 'ترمینال‌های اتصال (۶ پیچه)',
+      short: 'TAMPER | +12V | 0V | ALARM',
+      body: '<p>بلوک ترمینال این سنسور شامل ۶ پیچه است که از چپ به راست به سه گروه تقسیم می‌شود:</p>' +
+            '<ul>' +
+            '<li><b>پین ۱ و ۲ — TAMPER</b> — خروجی کلید تامپر؛ در صورت باز شدن درب بدنه، کنتاکت باز می‌شود.</li>' +
+            '<li><b>پین ۳ و ۴ — AUX</b> — پین ۳ ورودی +12V و پین ۴ ورودی 0V (زمین).</li>' +
+            '<li><b>پین ۵ و ۶ — ALARM (NC)</b> — خروجی رله آلارم؛ با تشخیص حرکت فعال می‌شود.</li>' +
+            '</ul>' +
+            '<p class="gmk-spec"><b>مشخصات فنی:</b> ولتاژ کاری ۹ تا ۱۸ ولت DC | جریان مصرفی حداکثر ۲۵ میلی‌آمپر</p>'
+    },
+
+    ledJmp: {
+      tag: 'تنظیم',
+      title: 'جامپر روشن/خاموش LED',
+      short: 'OFF (چپ) / ON (راست)',
+      body: '<p>این جامپر سه‌پینه در بالای برد قرار دارد و وضعیت نشانگر LED را تعیین می‌کند.</p>' +
+            '<p class="gmk-note">در حالت ON (سمت راست)، LED با هر تشخیص حرکت روشن می‌شود. در حالت OFF (سمت چپ)، LED همیشه خاموش است.</p>',
+      options: [
+        { label:'OFF', name:'LED خاموش', desc:'کاپ جامپر روی دو پین سمت چپ قرار می‌گیرد. LED خاموش است.' },
+        { label:'ON', name:'LED روشن', desc:'کاپ جامپر روی دو پین سمت راست قرار می‌گیرد. LED با تشخیص حرکت روشن می‌شود.' }
+      ]
+    },
+
+    pulseJmp: {
+      tag: 'تنظیم',
+      title: 'جامپر پالس / خودکار (PULSE / AUTO)',
+      short: 'حالت پالس یا خودکار',
+      body: '<p>این دو جامپر در سمت راست بالای برد قرار دارند و نحوه عملکرد سنسور را تعیین می‌کنند:</p>' +
+            '<ul>' +
+            '<li><b>PULSE (پالس)</b> — سنسور با دریافت تعداد مشخصی پالس، آلارم می‌دهد.</li>' +
+            '<li><b>AUTO (خودکار)</b> — سنسور به صورت خودکار و هوشمند عمل می‌کند.</li>' +
+            '</ul>',
+      options: [
+        { label:'PULSE', name:'حالت پالس', desc:'عملکرد بر اساس شمارش پالس‌ها.' },
+        { label:'AUTO', name:'حالت خودکار', desc:'عملکرد هوشمند و خودکار.' }
+      ]
+    },
+
+    led: {
+      tag: 'نشانگر',
+      title: 'LED نشانگر',
+      short: 'نشانگر وضعیت سنسور',
+      body: '<p>این LED وضعیت سنسور را نشان می‌دهد و با هر تشخیص حرکت روشن می‌شود.</p>' +
+            '<p class="gmk-note">با جامپر LED ON/OFF قابل کنترل است.</p>'
+    },
+
+    trimmer: {
+      tag: 'تنظیم',
+      title: 'پتانسیومتر تنظیم حساسیت',
+      short: 'تنظیم دقیق حساسیت سنسور',
+      body: '<p>این پتانسیومتر آبی رنگ (با علامت 501) برای تنظیم دقیق حساسیت سنسور PIR استفاده می‌شود. با چرخاندن پیچ آن می‌توانید حساسیت را کم یا زیاد کنید.</p>' +
+            '<p class="gmk-note">تغییرات را با احتیاط و به تدریج انجام دهید.</p>'
+    },
+
+    pir: {
+      tag: 'حسگر',
+      title: 'سنسور PIR',
+      short: 'حسگر مادون قرمز NICERA',
+      body: '<p>سنسور اصلی تشخیص حرکت این دستگاه از نوع مادون قرمز (PIR) ساخت شرکت NICERA است.</p>' +
+            '<ul>' +
+            '<li>برد تشخیص: ۱۴ متر</li>' +
+            '<li>زاویه پوشش: ۱۴۰ درجه</li>' +
+            '<li>ارتفاع نصب پیشنهادی: ۱٫۲ تا ۲٫۴ متر</li>' +
+            '</ul>' +
+            '<p class="gmk-spec"><b>مشخصات:</b> قابلیت تنظیم حساسیت | تشخیص حرکات ظریف | آنالیز هوشمند حیوانات</p>'
+    },
+
+    tamperSw: {
+      tag: 'حفاظت',
+      title: 'کلید تامپر (تشخیص باز شدن درب)',
+      short: 'کلید فنری روی برد',
+      body: '<p>این کلید فنری روی برد قرار دارد و با بسته شدن درب چشمی فشرده می‌شود. اگر درب دستگاه باز شود، این کلید تغییر وضعیت داده و سیگنال هشدار از طریق ترمینال TAMPER به پنل ارسال می‌شود.</p>' +
+            '<p class="gmk-note">برای اتصال صحیح، دو سیم از پین‌های TAMPER (پین ۱ و ۲) باید به صورت سری با زون ۲۴ ساعته پنل قرار گیرند.</p>'
+    },
+
+    install: {
+      tag: 'راهنما',
+      title: 'نکات مهم نصب',
+      short: 'محل نصب و موارد منع استفاده',
+      body: '<p>طبق دفترچه GMK-IGC 3000، سنسور باید در فضای داخلی نصب شود.</p>' +
+            '<p class="gmk-spec"><b>✓ فضای داخلی (توصیه شده):</b> سنسور در داخل ساختمان نصب می‌شود.</p>' +
+            '<p class="gmk-warn"><b>✗ فضای بیرونی (ممنوع):</b> نصب در فضای بیرونی باعث آلارم کاذب می‌شود.</p>' +
+            '<p><b>مواردی که نباید در مقابل سنسور قرار گیرند:</b></p>' +
+            '<ul>' +
+            '<li>شوفاژ یا رادیاتور برقی (منبع گرما)</li>' +
+            '<li>کولر یا فن (جریان هوا)</li>' +
+            '<li>نور مستقیم خورشید</li>' +
+            '<li>حیوانات با وزن بیش از ۲۰ کیلوگرم</li>' +
+            '<li>جرقه‌های الکتریکی</li>' +
+            '</ul>'
+    }
+  };
+
+  function qs(sel, ctx){ return (ctx || svg).querySelector(sel); }
+  function qsa(sel, ctx){ return Array.prototype.slice.call((ctx || svg).querySelectorAll(sel)); }
+
+  function applyState(){
+    var ledCap = qs('.gmk-cap-ledJmp');
+    if(ledCap){
+      ledCap.setAttribute('x', state.ledJmp === 1 ? 279 : 253);
+    }
+  }
+
+  function renderPanel(key){
+    if(!key || !PARTS[key]){
+      panel.innerHTML =
+        '<div class="gmk-empty">' +
+          '<div class="gmk-empty-icon">👆</div>' +
+          '<div class="gmk-empty-t">برای شروع، روی یکی از اجزای برد کلیک کنید</div>' +
+          '<div class="gmk-empty-d">با بردن موس روی هر بخش، توضیح کوتاه آن نمایش داده می‌شود.</div>' +
+        '</div>';
+      return;
+    }
+
+    var p = PARTS[key];
+    var html = '<div class="gmk-p-head">' +
+                 '<div class="gmk-p-tag">' + (p.tag || 'جزء برد') + '</div>' +
+                 '<div class="gmk-p-title">' + p.title + '</div>' +
+               '</div>';
+
+    html += '<div class="gmk-p-body">' + p.body + '</div>';
+
+    if(p.options){
+      html += '<div class="gmk-p-opts-title">انتخاب حالت:</div>';
+      html += '<div class="gmk-p-opts">';
+      for(var i = 0; i < p.options.length; i++){
+        var o = p.options[i];
+        var on = (state[key] === i) ? ' gmk-on' : '';
+        html += '<button type="button" class="gmk-opt' + on + '" data-key="' + key + '" data-i="' + i + '">' +
+                  '<span class="gmk-opt-l">' + o.label + '</span>' +
+                  '<span class="gmk-opt-n">' + o.name + '</span>' +
+                '</button>';
+      }
+      html += '</div>';
+
+      var cur = p.options[state[key]];
+      html += '<div class="gmk-p-cur"><b>حالت فعلی:</b> ' + cur.desc + '</div>';
+    }
+
+    panel.innerHTML = html;
+  }
+
+  function showTipAt(x, y, key){
+    var p = PARTS[key];
+    if(!p) return;
+    tip.innerHTML = '<b>' + p.title + '</b>' + (p.short || '');
+    tip.classList.add('gmk-show');
+
+    tip.style.left = '0px';
+    tip.style.top = '0px';
+    var w = tip.offsetWidth, h = tip.offsetHeight;
+    var left = x + 16, top = y + 16;
+    if(left + w > window.innerWidth - 10) left = x - w - 16;
+    if(top + h > window.innerHeight - 10) top = y - h - 16;
+    if(left < 10) left = 10;
+    if(top < 10) top = 10;
+    tip.style.left = left + 'px';
+    tip.style.top = top + 'px';
+  }
+
+  function hideTip(){
+    tip.classList.remove('gmk-show');
+  }
+
+  function selectPart(key){
+    currentKey = key;
+    qsa('.gmk-hotspot').forEach(function(el){
+      el.classList.toggle('gmk-active', el.getAttribute('data-part') === key);
+    });
+    renderPanel(key);
+  }
+
+  qsa('.gmk-hotspot').forEach(function(el){
+    var key = el.getAttribute('data-part');
+
+    el.addEventListener('mouseenter', function(e){
+      showTipAt(e.clientX, e.clientY, key);
+    });
+    el.addEventListener('mousemove', function(e){
+      if(tip.classList.contains('gmk-show')) showTipAt(e.clientX, e.clientY, key);
+    });
+    el.addEventListener('mouseleave', hideTip);
+
+    el.addEventListener('click', function(){
+      selectPart(key);
+    });
+
+    el.addEventListener('touchstart', function(e){
+      var t = e.touches[0];
+      showTipAt(t.clientX, t.clientY, key);
+      selectPart(key);
+      clearTimeout(el._gmkTimer);
+      el._gmkTimer = setTimeout(hideTip, 2600);
+    }, { passive: true });
+
+    el.addEventListener('keydown', function(e){
+      if(e.key === 'Enter' || e.key === ' '){
+        e.preventDefault();
+        selectPart(key);
+      }
+    });
+  });
+
+  panel.addEventListener('click', function(e){
+    var btn = e.target.closest ? e.target.closest('.gmk-opt') : null;
+    if(!btn) return;
+    var key = btn.getAttribute('data-key');
+    var i = parseInt(btn.getAttribute('data-i'), 10);
+    if(state[key] === i) return;
+    state[key] = i;
+    applyState();
+    renderPanel(key);
+  });
+
+  applyState();
+  renderPanel(null);
+})();
+</script>
+
+</body>
+</html>
